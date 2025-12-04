@@ -34,62 +34,6 @@ System Utility Dashboard omogućava korisniku da na jednom mestu:
 
 GUI je kreiran u Qt Designer-u i učitava se iz `dashboard.ui` fajla.
 
-Aplikacija je modularna i organizovana u folderu `modules/`.
-
----
-
-# 🔧 Funkcionalnosti
-
-### 🖥️ 1. System Info
-- CPU usage (u procentima)
-- RAM usage (ukupno i iskorišćeno)
-- Disk statistike
-- OS informacije
-- Hostname i sistemski detalji
-- Dugme *Refresh*
-
----
-
-### 🧩 2. Process Manager
-- Prikaz svih aktivnih procesa
-- PID + ime procesa
-- Brzo učitavanje
-
-*(Opcija “Kill Process” i “Priority Manager” dostupan u PREMIUM verziji)*
-
----
-
-### 📦 3. Backup Tool
-- Unos foldera za backup
-- Automatsko kreiranje ZIP arhive
-- Rezultat operacije i log status
-
----
-
-### 🌐 4. Network Tools
-- Ping hostova (IP i domen)
-- Prikaz vremena odziva i rezultata mrežne dijagnostike
-
-*(TraceRoute i Port Scanner dostupni su u PREMIUM verziji)*
-
----
-
-### 📑 5. Log Viewer
-- Učitavanje .log i .txt fajlova
-- Jasan prikaz sadržaja
-
----
-
-# 🛠️ Upotrebljene tehnologije
-
-- **Python 3.10+**
-- **PyQt5** – glavni GUI framework
-- **psutil** – procesi, CPU, RAM, disk
-- **zipfile** – backup sistem
-- **subprocess** – mrežna dijagnostika
-- **Qt Designer (.ui)** – interfejs
-
----
 
 # 📥 Instalacija
 
